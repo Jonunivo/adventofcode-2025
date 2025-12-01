@@ -18,7 +18,7 @@ def part2():
         print("Part 2 Solution:", zeroCount)
 
 def part1():
-    with open('sample.txt', 'r') as f:
+    with open('input.txt', 'r') as f:
         dialPos = 50
         solutionCount = 0
         for line in f:
@@ -47,4 +47,5 @@ def part1():
 
 
 if __name__ == "__main__":
+    part1()
     part2()
